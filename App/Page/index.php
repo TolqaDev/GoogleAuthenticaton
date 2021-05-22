@@ -14,7 +14,7 @@ require_once '../Controllers/Api/GoogleAuthenticator.php';
 $ga = new GoogleAuthenticator();
 $secret = $ga->createSecret();
 $user = "4krr3p@gmail.com";
-$qrCodeUrl 	= $ga->getQRCodeGoogleUrl($user, $secret,'google.tolqa.dev');?>
+$qrCodeUrl 	= $ga->getQRCodeGoogleUrl($user, $secret,'authenticator.tolqa.dev');?>
 <!DOCTYPE html>
 <html lang="tr-TR">
 <head>
