@@ -31,7 +31,7 @@ $qrCodeUrl 	= $ga->getQRCodeGoogleUrl($user, $secret,'authenticator.tolqa.dev');
 </head>
 <body>
 	<div class="limiter">
-		<div class="container-login100">
+		<div class="container-login100" style="background-image: url('<?php echo base_link;?>Config/images/background.jpg');background-repeat: no-repeat;background-position: center;background-size: cover;">
 			<div class="wrap-login100">
                 <span class="login100-form-title p-b-48">
                     <img src="<?php echo $qrCodeUrl;?>">
